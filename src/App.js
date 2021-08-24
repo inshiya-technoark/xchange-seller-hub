@@ -16,7 +16,7 @@ function App() {
     <Router>
       
      { <Switch>
-         <Route path='/' exact component={SellerDashboard} />
+         <Route path='/xchange-seller-hub' exact component={SellerDashboard} />
          <Route path='/sellerhub' exact component={SellerDashboard} />
          <Route path='/profile' component={Profile} />
          <Route path='/payments' component={Payments} />
