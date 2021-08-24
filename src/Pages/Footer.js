@@ -1,15 +1,19 @@
 import React from 'react';
-import './assets/css/style.css';
-import './assets/css/brands.css';
-import './assets/css/fontawesome.min.css';
-import './assets/css/solid.css';
 
-import './assets/css/bootstrap.min.css';
 
 function Footer() {
     return (
         <div>
-            <div className="footer">
+        {/* Required meta tags */}
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        {/* Bootstrap CSS */}
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
+        <link rel="stylesheet" href="assets/css/brands.css" />
+        <link rel="stylesheet" href="assets/css/solid.css" /> 
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <div className="footer">
         <div className="container">
           <footer className="pt-4 my-md-5 pt-md-5">
             <div className="row">  
